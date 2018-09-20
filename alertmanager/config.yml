@@ -1,0 +1,10 @@
+route:
+    receiver: 'slack'
+
+receivers:
+    - name: 'slack'
+      slack_configs:
+          - send_resolved: true
+            username: 'cindi-infrastucture'
+            channel: '#grafana'
+            api_url: 'https://hooks.slack.com/services/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'
